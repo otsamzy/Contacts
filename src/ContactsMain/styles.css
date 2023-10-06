@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: aliceblue
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.centre_container {
+    max-width: 600px;
+    margin-inline: auto;
+    margin-top: 3rem;
+}
+
+.heading {
+    text-align: center;
+    margin: 2rem auto;
+    color: rgb(8, 139, 255);
+    ;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.form_single_con {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.form_single_con label {
+    flex: 1;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(8, 139, 255);
+
+}
+
+.form_single_con input {
+    height: 40px;
+    background-color: aliceblue;
+    outline: none;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 15px rgba(255, 254, 254, 0.8),
+        10px 10px 15px rgba(74, 72, 72, 0.12);
+    border: none;
+    flex: 4;
+    transition: all .2s ease;
+    color: rgb(46, 177, 247);
+
+}
+
+.form_single_con input::placeholder {
+    color: rgb(46, 177, 247)
+}
+
+.form_single_con input:focus,
+.form_single_con input:focus {
+    box-shadow: inset -4px -4px 8px rgba(255, 254, 254, 0.5), inset 6px 6px 16px rgba(0, 0, 0, .1);
+
+}
+
+.submit_btn {
+    background-color: aliceblue;
+    color: rgb(43, 160, 255);
+    margin: 2rem auto 0;
+    display: block;
+    font-size: 3rem;
+    padding: .8rem 3rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: -10px -6px 10px rgba(255, 254, 254, .9), 6px 6px 10px rgba(0, 0, 0, .1);
+    transition: all .2s ease-in-out;
+}
+
+.submit_btn:active {
+    box-shadow: -20px -20px 20px rgba(255, 254, 254, .9), 15px 15px 15px rgba(0, 0, 0, .1);
+    ;
+}
+
+.List_contacts {
+
+    margin-top: 3rem;
+
+}
+
+.single_contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: -8px -8px 5px rgba(231, 234, 235, 0.748), 8px 8px 7px rgba(0, 0, 0, .1);
+    min-height: 100px;
+}
+
+.contact_left_comp {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact_name {
+    font-size: 2rem;
+    color: rgb(8, 139, 255);
+}
+
+.contact_email {
+    font-size: 1.3rem;
+    color:
+        rgb(124, 204, 247);
+    ;
+
+
+}
+
+.phone {
+    color: rgb(8, 139, 255);
+    font-size: 2rem;
+
+}
+
+.img {}
+
+.img_con svg {
+    width: 30px;
+    fill: rgb(8, 139, 255);
+
+}
